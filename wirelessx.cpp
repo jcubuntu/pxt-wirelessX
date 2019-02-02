@@ -3,7 +3,7 @@
 using namespace pxt;
 
 namespace wirelessX{
-    char readData(){
+    int readData(){
         return uBit.serial.read();
     }
 }
